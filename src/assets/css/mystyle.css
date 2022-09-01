@@ -732,7 +732,7 @@ a.theme-btn {
 	color: palegreen;
 	display: block;
 	border-radius: 2px solid black;
-	margin-top: 150px;
+	/* margin-top: 150px; */
 	margin-bottom: 20px;
 }
 
