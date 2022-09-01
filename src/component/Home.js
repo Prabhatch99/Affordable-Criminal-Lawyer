@@ -9,11 +9,11 @@ function Home() {
     phone: "",
     message:""
   })
+  console.log(user.name)
 
   function getData(e) {
     var name = e.target.name
     var value = e.target.value
-
     setuser(oldData => {
       return {
         ...oldData,
@@ -77,23 +77,10 @@ function Home() {
                 <h3>Request Free Legal Advice 24/7</h3>
                 <form ref={form} onSubmit={sendEmail} className="site-contact-form">
 
-                  <div className="mb-2">
-
-                    <input type="text" className="form-control" name='name' placeholder='Name' required />
-                  </div>
-                  <div className="mb-2">
-
-                    <input type="email" className="form-control" name='email' placeholder='Email address' required />
-                  </div>
-                  <div className="mb-2">
-
-                    <input type="number" className="form-control" name='phone' placeholder='Phone' required />
-                  </div>
-
-                  <div className="mb-2">
-                    <textarea className='w-100' name="message" placeholder="Message" required style={{ height: "90px" }}></textarea>
-                  </div>
-
+                  <div className="mb-2"><input type="text" className="form-control" name='name' onChange={getData} placeholder='Name' required /></div>
+                  <div className="mb-2"><input type="email" className="form-control" name='email' onChange={getData} placeholder='Email address' required /></div>
+                  <div className="mb-2"><input type="number" className="form-control" name='phone' onChange={getData} placeholder='Phone' required /></div>
+                  <div className="mb-2"><textarea className='w-100' name="message" placeholder="Message" onChange={getData} required style={{ height: "90px" }}></textarea></div>
                   <button type="submit" className="btn btn-lg  mx-5 hbutton">Request free Consultation</button>
                 </form>
               </div>

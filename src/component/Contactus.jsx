@@ -11,6 +11,7 @@ function Contactus() {
         phone: "",
         message:""
       })
+      console.log(user.name)
     
       function getData(e) {
         var name = e.target.name
@@ -55,16 +56,16 @@ function Contactus() {
                                 {/* <!-- Contact form --> */}
                                 <form ref={form} onSubmit={sendEmail} className="site-contact-form" style={{width:"100%", height:"100%"}}>
                                     <div className="mb-2">
-                                        <input type="text" name='name' className="form-control" placeholder='Name' required />
+                                        <input type="text" name='name' className="form-control" placeholder='Name' onChange={getData} required />
                                     </div>
                                     <div className="mb-2">
-                                        <input type="email" name='email' className="form-control" placeholder='Email address' required />
+                                        <input type="email" name='email' className="form-control" placeholder='Email address' onChange={getData} required />
                                     </div>
                                     <div className="mb-2">
-                                        <input type="number" name='phone' className="form-control" placeholder='Phone' required />
+                                        <input type="number" name='phone' className="form-control" placeholder='Phone' onChange={getData} required />
                                     </div>
                                     <div className="mb-2">
-                                        <textarea className='w-100 pt-2' name="message" placeholder="Message" required style={{ height: "150px" }}></textarea>
+                                        <textarea className='w-100 pt-2' name="message" placeholder="Message" onChange={getData} required style={{ height: "150px" }}></textarea>
                                     </div>
                                     <button type="submit" className="btn btn-lg  btn-customs" >Request a free Consultation <i className="fa fa-spin fa-spinner"></i></button>
                                 </form>

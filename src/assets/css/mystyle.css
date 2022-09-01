@@ -401,6 +401,14 @@ li span {
     text-align: center;
     margin: 0;
     font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.site-number-inline p h4{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
 }
 
 .site-number i.fa {

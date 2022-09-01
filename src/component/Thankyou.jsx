@@ -4,14 +4,6 @@ import { Link } from 'react-router-dom'
 function Thankyou() {
     return (
         <>
-            {/* <div className='container'>
-                <div className='row main-content'>
-                    <i className="fa-5x fa-solid fa-circle-check" id="checkmark"></i>
-                    <h1>Thankyou!</h1>
-                    <h3>Your Submisssion is recived and we will contact you soon</h3>
-                </div>
-            </div> */}
-
             <div className="site-call-to-action" id="call-to-action" >
                 <div className="container">
                     <div className="row">

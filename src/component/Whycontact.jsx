@@ -23,7 +23,7 @@ function Whycontact() {
                                             <div className="site-number dark-bg" style={{background:"#fff", color:"#000"}}>
                                                 {/* <!-- Inline wrapper --> */}
                                                 <div className="site-number-inline">
-                                                    <h4><i className="fa fa-globe" aria-hidden="true" style={{color: "#801617"}}></i></h4>
+                                                    <p><i className="fa fa-globe" aria-hidden="true" style={{color: "#801617"}}></i></p>
                                                     <h4>Multilingual Services</h4>
                                                 </div>
                                             </div>
@@ -34,7 +34,7 @@ function Whycontact() {
                                             <div className="site-number color-bg" style={{background:"#fff", color:"#000"}}>
                                                 {/* <!-- Inline wrapper --> */}
                                                 <div className="site-number-inline">
-                                                    <h4><i className="fa fa-gavel" aria-hidden="true" style={{color: "#801617"}}></i></h4>
+                                                    <p><i className="fa fa-gavel" aria-hidden="true" style={{color: "#801617"}}></i></p>
                                                     <h4>Expert in Criminal law</h4>
                                                 </div>
                                             </div>
@@ -45,7 +45,7 @@ function Whycontact() {
                                             <div className="site-number dark-bg" style={{background:"#fff", color:"#000"}}>
                                                 {/* <!-- Inline wrapper --> */}
                                                 <div className="site-number-inline">
-                                                    <h4><i className="fa fa-money" aria-hidden="true" style={{color: "#801617"}}></i></h4>
+                                                    <p><i className="fa fa-money" aria-hidden="true" style={{color: "#801617"}}></i></p>
                                                     <h4>Convenient Payment Options</h4>
                                                 </div>
                                             </div>
@@ -66,7 +66,7 @@ function Whycontact() {
                                             <div className="site-number dark-bg" style={{background:"#fff", color:"#000"}}>
                                                 {/* <!-- Inline wrapper --> */}
                                                 <div className="site-number-inline">
-                                                    <h4><i className="fa fa-user" aria-hidden="true" style={{color: "#801617"}}></i></h4>
+                                                    <p><i className="fa fa-user" aria-hidden="true" style={{color: "#801617"}}></i></p>
                                                     <h4>Lawyers / Former Prosecutor</h4>
                                                 </div>
                                             </div>
@@ -77,7 +77,7 @@ function Whycontact() {
                                             <div className="site-number color-bg" style={{background:"#fff", color:"#000"}}>
                                                 {/* <!-- Inline wrapper --> */}
                                                 <div className="site-number-inline">
-                                                    <h4><i className="fa fa-clock-o" aria-hidden="true" style={{color: "#801617"}}></i></h4>
+                                                    <p><i className="fa fa-clock-o" aria-hidden="true" style={{color: "#801617"}}></i></p>
                                                     <h4> 24 / 7 Working Hours</h4>
                                                 </div>
                                             </div>
@@ -88,7 +88,7 @@ function Whycontact() {
                                             <div className="site-number dark-bg" style={{background:"#fff", color:"#000"}}>
                                                 {/* <!-- Inline wrapper --> */}
                                                 <div className="site-number-inline">
-                                                    <h4><i className="fa fa fa-users" aria-hidden="true" style={{color: "#801617"}}></i></h4>
+                                                    <p><i className="fa fa fa-users" aria-hidden="true" style={{color: "#801617"}}></i></p>
                                                     <h4>Free Consultation</h4>
                                                 </div>
                                             </div>
