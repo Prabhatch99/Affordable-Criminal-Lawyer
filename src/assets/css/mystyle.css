@@ -1,0 +1,752 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.collapse ul {
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+
+.navbar .active {
+    color: #801617;
+    text-decoration: #801617 underline;
+}
+
+.blink_me {
+    text-align: left;
+    margin-top: 50px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FFC107;
+    animation: blink 6s linear infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+        color: #FFC107;
+        opacity: 1;
+
+    }
+
+    /* 18.1%,20.1%,50%,60.1%,65%,80.1%,90%,100%{
+        
+        opacity: 0.4;
+    } */
+    30.1%,
+    55.2%,
+    65.2%,
+    70.2%,
+    85.2%,
+    95.2%,
+    100% {
+
+        opacity: 0;
+    }
+}
+
+.sh1 {
+    text-align: left;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+
+
+    /* opacity: 0.427995; */
+
+}
+
+.site-box h2 {
+    text-align: left;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+
+.form-container h3 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #801617;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.style {
+
+    background: rgb(255 255 255);
+    padding: 29px;
+    border: 5px solid white;
+}
+
+.background-image {
+    background-image: url(../images/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+
+}
+
+
+
+.liststyle {
+    display: block;
+    color: white;
+    margin-top: 20px;
+    font-size: 24px;
+    list-style-type: none;
+    text-align: left;
+}
+
+li span {
+    color: #FFC107;
+    padding-right: 10px;
+    font-weight: 900;
+
+
+}
+
+.hbutton {
+
+    text-align: center;
+    color: white;
+    background-color: #801617;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+
+
+}
+
+
+/* //About us section css */
+
+.site-about .left-colom img {
+    border-radius: 50%;
+    width: 100%;
+
+}
+
+
+
+.background-imageabout {
+    background-image: url(../images/about-statue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.site-grey-section {
+    margin: 0;
+    padding: 50px 0;
+    width: 100%;
+    clear: both;
+    display: block;
+    /* text-align: center; */
+    background: #efefed;
+}
+
+.site-grey-section h2 {
+    font-family: inherit;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: inherit;
+    color: #292929;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+.site-grey-section h3 {
+    font-family: inherit;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: inherit;
+    color: #292929;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.site-grey-section p {
+
+    font-family: 'Lato', sans-serif;
+    color: #565656;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: left;
+
+}
+
+.right-colom {
+    padding-left: 60px;
+    padding-top: 110px;
+
+}
+
+.theme-btn {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 14px 35px 14px 35px;
+    background: #801617;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.theme-btn:hover {
+    color: white;
+    background-color: #801617;
+
+}
+
+.right-colom span {
+    text-align: left;
+    font-size: 25px;
+    /* margin: -10px 0 0 0; */
+
+
+}
+
+.site-about .call a {
+    color: #292929;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 35px;
+}
+
+
+
+/* services section css */
+
+.site-services h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.site-services p {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.site-white-section h1,
+.site-dark-section h1,
+.site-grey-section h1 {
+    /* H1 heading */
+    color: #292929;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.site-services .card h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #292929;
+    line-height: 1.3;
+    padding: 25px 0;
+    margin: 0;
+}
+
+.site-dark-section {
+    margin: 0;
+    padding: 90px 0;
+    width: 100%;
+    clear: both;
+    display: block;
+    text-align: center;
+    background: #292929;
+}
+
+.card-text li {
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+}
+
+.card-text li::before {
+    content: "\2713";
+    margin-right: 20px;
+    font-weight: bolder;
+
+}
+
+.marginsedc {
+    font-size: 23px;
+    color: #cc0909 !important;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+
+
+/* below services */
+
+.banner-layout1 {
+    text-align: center;
+}
+
+.banner-layout1 h1 {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-layout1 h5 {
+    font-size: 18px;
+    font-weight: 550;
+
+}
+
+.displblock {
+    display: inline-block;
+    color: #801617;
+    text-decoration: none;
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.displblock:hover {
+    color: #801617;
+}
+
+
+/* Why choose us section */
+
+.site-dark-section h2 {
+    font-family: inherit;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: inherit;
+    color: white;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+.site-statistic {
+    margin: 0;
+    width: 100%;
+    display: block;
+    clear: both;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    background: url(../images/statistic-bg.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-statistic .site-section-box {
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.site-number {
+    width: 100%;
+    position: relative;
+    padding: 25px 0;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    float: left;
+    border-radius: 10px;
+}
+
+.site-number-inline h4 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.site-number i.fa {
+    width: 100%;
+    height: 41px;
+    color: #FFFFFF;
+    font-size: 40px;
+    /* font-weight: 400; */
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+
+
+.cta p {
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+    color: #fff;
+    /* line-height: 33px; */
+}
+
+
+/* contact us section ------> */
+
+
+
+.site-quick-support {
+    background-attachment: unset;
+    background-image: unset;
+    background: #801617;
+}
+
+
+.site-quick-support .left-colom img {
+
+    height: 90%;
+    width: 90%;
+}
+
+.right h2 {
+    color: white;
+    font-family: inherit;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: inherit;
+    margin: 0 0 40px 0;
+
+}
+
+.site-quick-support input[type=text],
+.site-quick-support input[type=tel],
+.site-quick-support input[type=number],
+.site-quick-support input[type=url],
+.site-quick-support input[type=email],
+.site-quick-support textarea[name=message] {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 15px;
+    display: block;
+    clear: both;
+    border: 1px solid #292929;
+    border-radius: 5px;
+    box-shadow: none;
+    height: 50px;
+    color: #292929;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    /* border-bottom: 2px solid #cecece; */
+    transition: 400ms ease;
+    transition-property: border-color;
+    background: #FFFFFF;
+}
+
+
+
+.btn-customs {
+    background: #FFEB3B;
+    color: #292929;
+    /* padding: 18px 0px; */
+    font-size: 15px;
+    width: 100%;
+
+    box-shadow: none;
+    padding: 17px 0;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+    border: 2px solid #801617;
+    transition: 400ms ease;
+    transition-property: background, color;
+    letter-spacing: 2px;
+    border-radius: 30px;
+}
+
+.btn-customs:hover {
+    background-color: #FFC107;
+}
+
+
+
+/* footer section css  */
+
+.site-footer {
+    width: 100%;
+    clear: both;
+    display: block;
+    margin: 0;
+    padding: 90px 0;
+    padding-bottom: 15px;
+    background-color: #292929;
+    color: white;
+    font-family: inherit;
+}
+
+.site-footer .widget {
+    display: block;
+    clear: both;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 70px;
+    max-width: 330px;
+}
+
+.site-footer h3 {
+    color: white;
+    font-family: inherit;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1;
+    position: relative;
+    width: 100%;
+    display: block;
+    padding: 0 0 16px;
+    margin: 0 0 30px;
+}
+
+.site-footer ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+.site-footer ul li {
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    display: block;
+    padding: 0;
+    width: 100%;
+    clear: both;
+    color: white;
+    margin: 0;
+}
+
+.site-footer ul li {
+    margin-bottom: 12px;
+}
+
+.site-footer .widget .a {
+    color: #c5c5c5;
+    margin-bottom: 15px;
+    transition: 400ms ease;
+    transition-property: color;
+    text-decoration: none;
+}
+
+.site-footer p {
+    color: #c5c5c5;
+    margin: 0;
+    padding: 0 15px 0 0;
+    display: block;
+    font-size: 16px;
+}
+
+.site-footer .site-copyright {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #c5c5c5;
+}
+
+/* bottom contactus  */
+
+.site-call-to-action .site-box {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    /* position: absolute; */
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    z-index: 1;
+}
+
+.site-call-to-action {
+    margin: 0;
+    padding: 120px 0;
+    display: block;
+    width: 100%;
+    clear: both;
+    position: relative;
+    background: url(../images/cta-bg.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.site-call-to-action h1 {
+    color: white;
+    font-family: inherit;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    line-height: 1.3;
+}
+
+.site-team {
+    display: block;
+    width: 100%;
+    clear: both;
+    background: #f0f6f7;
+}
+
+.site-quick-support {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+    clear: both;
+    background: url(../images/quick-support-bg.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.site-call-to-action .call-info {
+    float: left;
+    width: 100%;
+}
+.site-call-to-action ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.site-call-to-action ul li {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    color: #FFFFFF;
+    border-right: #FFFFFF solid 2px;
+    padding: 0 20px;
+}
+
+.site-call-to-action ul li:last-child {
+    border-right: none;
+}
+
+.site-call-to-action .theme-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+a.theme-btn {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 14px 35px 14px 35px;
+    position: relative;
+    overflow: hidden;
+    transition: 400ms ease;
+    transition-property: color, background;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    border-radius: 0;
+    background: #801617;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0px;
+    border-radius: 30px;
+}
+
+
+.site-call-to-action .call-info ul li {
+    border-right: #801617 solid 2px;
+}
+
+
+
+/* Thankyou page */
+
+
+#checkmark{
+	text-align: center;
+	color: palegreen;
+	display: block;
+	border-radius: 2px solid black;
+	margin-top: 150px;
+	margin-bottom: 20px;
+}
+
+.main-content h1{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 60px;
+}
+.main-content h3{
+	text-align: center;
+	font-weight:  400;
+	font-size: 35px;
+}
+.main-content p{
+	text-align: center;
+	font-weight:  400;
+	font-size: 20px;
+	margin-top: 15px;
+}
