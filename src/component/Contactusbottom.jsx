@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Contactusbottom() {
     
@@ -26,7 +27,7 @@ function Contactusbottom() {
                                 </ul>
                             </div>
                             <div className="col-12">
-                                <a href="#contactus" className="theme-btn mt-5" style={{background: "#801617",color: "#fff"}}>  Request Free Legal Advice 24/7  </a>
+                                <Link to="/contactus" className="theme-btn mt-5" style={{background: "#801617",color: "#fff"}}>  Request Free Legal Advice 24/7  </Link>
                             </div>
                         </div>
                     </div>

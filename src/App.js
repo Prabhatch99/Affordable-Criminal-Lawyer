@@ -9,12 +9,14 @@ import Whycontact from './component/Whycontact'
 import Services from './component/Services'
 import Footer from './component/Footer'
 import Thankyou from './component/Thankyou'
+import ScrollToTop from './component/ScrollToTop'
 
 
 function App() {
   return (
     <>
       <BrowserRouter>
+      <ScrollToTop/>
         <Nav />
         <Routes>
           <Route exact path='/' element={<Home />} />

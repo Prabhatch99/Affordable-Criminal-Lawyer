@@ -15,7 +15,7 @@ function About() {
                                 <h2>We will fight for you</h2>
                                 <h3>Criminal Defence Lawyers</h3>
                                 <p>We provide clients with dedicated support over the duration of their case. Whether there is a need to resolve or litigate your matter, our focus is on ensuring that your expecations are met.</p>
-                                <div class="btn"><Link class="theme-btn btn" to=''> Request Free Legal Advice 24/7 </Link> </div>
+                                <div class="btn"><Link class="theme-btn btn" to='/contactus'> Request Free Legal Advice 24/7 </Link> </div>
                                 {/* <!-- Call --> */}
                                 <div class="call"><a href="tel:(800) 808-8119"><i class="fa fa-phone"></i><span> (800) 808-8119</span></a></div>
                             </div>
