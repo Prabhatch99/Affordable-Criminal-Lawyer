@@ -1,6 +1,10 @@
 import React, { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import emailjs from '@emailjs/browser';
+import About from './About';
+import Services from './Services';
+import Whycontact from './Whycontact';
+import Contactus from './Contactus';
 
 function Home() {
   var [user, setuser] = useState({
@@ -89,6 +93,10 @@ function Home() {
         </div>
       </div>
       {/* <!-- End Bootstrap --> */}
+      <About/>
+      <Services/>
+      <Whycontact/>
+      <Contactus/>
     </>
   )
 }
