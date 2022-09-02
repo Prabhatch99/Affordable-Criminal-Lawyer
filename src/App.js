@@ -10,13 +10,14 @@ import Services from './component/Services'
 import Footer from './component/Footer'
 import Thankyou from './component/Thankyou'
 import ScrollToTop from './component/ScrollToTop'
+import Phone from './component/Phone'
 
 
 function App() {
   return (
     <>
       <BrowserRouter>
-      <ScrollToTop/>
+        <ScrollToTop />
         <Nav />
         <Routes>
           <Route exact path='/' element={<Home />} />
@@ -26,7 +27,8 @@ function App() {
           <Route exact path='/contactus' element={<Contactus />} />
           <Route exact path='/Thankyou' element={<Thankyou />} />
         </Routes>
-        <Footer/>
+        <Footer />
+        <Phone />
       </BrowserRouter>
     </>
   )
