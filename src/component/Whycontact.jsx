@@ -102,7 +102,7 @@ function Whycontact() {
                                 <p> Call us for FREE Consultation : <a href="tel:(800) 808-8119" style={{color:"#FFEB3B"}}><i className="fa fa-phone blink_me"></i> (800) 808-8119 </a></p>
                             </div>
 
-                            <Link to="/contactus" className="theme-btn p-4"> Request Free Legal Advice 24/7 </Link>
+                            <Link to="/contactus" className="theme-btn px-4"> Request Free Legal Advice 24/7 </Link>
 
                         </div>
                     </div>

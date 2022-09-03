@@ -6,11 +6,11 @@ function About() {
     return (
         <>
             <div class="site-about site-grey-section">
-                <div class="container p-0">
+                <div class="container-fluid">
                     <div class="row">
 
                         {/* <!-- Left colom --> */}
-                        <div class=" col-md-5 col-12 px-3">
+                        <div class=" col-md-5 col-12">
                             <div class="right-colom background-imageabout">
                                 <h2>We will fight for you</h2>
                                 <h3>Criminal Defence Lawyers</h3>

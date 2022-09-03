@@ -10,12 +10,21 @@ body {
     background-color: #fff;
 }
 
-.collapse ul {
+p {
+    font-family: 'Lato', sans-serif;
+    color: #565656;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* .collapse ul {
     font-size: 16px;
     font-weight: 600;
     padding-right: 10px;
 
-}
+} */
 
 .navbar .active {
     color: #801617;
@@ -107,25 +116,36 @@ body {
     background-size: cover;
     height: 100%;
     background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 
 }
 
-
-
-.liststyle {
+#liststyle {
     display: block;
     color: white;
     margin-top: 20px;
     font-size: 24px;
     list-style-type: none;
     text-align: left;
+    justify-content: left;
+    padding: unset;
+    border-right: unset;
 }
 
-li span {
-    color: #FFC107;
-    padding-right: 10px;
-    font-weight: 900;
+#liststyle li {
+    display: block;
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+}
 
+#liststyle li::before {
+    content: "\2713";
+    font-weight: bolder;
+    color: #FFC107;
+    padding-right: 20px;
+    font-weight: 900;
 
 }
 
@@ -137,8 +157,6 @@ li span {
     text-decoration: none;
     padding: 10px;
     font-size: 16px;
-
-
 }
 
 
@@ -147,10 +165,8 @@ li span {
 .site-about .left-colom img {
     border-radius: 50%;
     width: 100%;
-
+    margin-top: 50px;
 }
-
-
 
 .background-imageabout {
     background-image: url(../images/about-statue.png);
@@ -161,7 +177,7 @@ li span {
 
 .site-grey-section {
     margin: 0;
-    padding: 50px 0;
+    padding: 40px 0;
     width: 100%;
     clear: both;
     display: block;
@@ -204,7 +220,7 @@ li span {
 
 .right-colom {
     padding-left: 60px;
-    padding-top: 110px;
+    padding-top: 70px;
 
 }
 
@@ -515,6 +531,7 @@ li span {
 
 
 /* footer section css  */
+
 
 .site-footer {
     width: 100%;

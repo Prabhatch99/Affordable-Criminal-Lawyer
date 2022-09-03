@@ -17,7 +17,7 @@ function Footer() {
                             <div className="widget">
 
                                 {/* <!-- Logo --> */}
-                                <div className="site-logo mb-3">
+                                <div className="site-logo mb-4 pb-2">
                                     <Link to="/"><img src={flogo} alt="Logo" style={{ width: "100px" }} /></Link>
                                 </div>
                                 {/* <!-- End logo --> */}
