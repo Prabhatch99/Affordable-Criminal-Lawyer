@@ -8,7 +8,7 @@ function Whycontact() {
         <>
 
             <div className="site-statistic site-dark-section " id="whychooseus">
-                <div className="container">
+                <div className="container p-5">
                     <div className="row">
                         <div className="col-xs-12">
                             <h2>Why Choose Us? </h2>

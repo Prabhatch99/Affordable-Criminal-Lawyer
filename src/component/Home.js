@@ -47,7 +47,7 @@ function Home() {
       <div className='background-image'>
         <div className="container-fluid p-5">
           <div className="row">
-            <div className="col-12 p-3">
+            <div className="col-12 p-4">
               <div className="row">
                 <div className=" col-md-8 col-12">
                   {/* <!-- Box --> */}
@@ -67,15 +67,14 @@ function Home() {
                   {/* <!-- End box --> */}
 
                 <div className="col-md-4 col-12   site-quick-support bg-light" >
-                  <div className="form-container  style">
+                  <div className="form-container  style mt-0 pt-0">
                     <h3>Request Free Legal Advice 24/7</h3>
-
                     <form ref={form} onSubmit={sendEmail} className="site-contact-form">
                       <div className="mb-2"><input type="text" className="form-control" name='name' onChange={getData} placeholder='Name' required /></div>
                       <div className="mb-2"><input type="email" className="form-control" name='email' onChange={getData} placeholder='Email address' required /></div>
                       <div className="mb-2"><input type="number" className="form-control" name='phone' onChange={getData} placeholder='Phone' required /></div>
                       <div className="mb-2"><textarea className='w-100' name="message" placeholder="Message" onChange={getData} required style={{ height: "90px" }}></textarea></div>
-                      <button type="submit" className="btn btn-lg  mx-5 hbutton">Request free Consultation</button>
+                      <button type="submit" className="btn btn-lg w-100 hbutton">Request free Consultation</button>
                     </form>
 
                   </div>

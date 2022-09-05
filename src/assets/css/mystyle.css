@@ -8,6 +8,11 @@ body {
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
 }
 
 p {
@@ -18,16 +23,38 @@ p {
     line-height: 1.6;
 }
 
-/* .collapse ul {
-    font-size: 16px;
-    font-weight: 600;
-    padding-right: 10px;
-
-} */
+/* ----------Navbar--------> */
 
 .navbar .active {
-    color: #801617;
-    text-decoration: #801617 underline;
+    color: #801617 !important;
+}
+
+/* .navbar-expand-lg .navbar-collapse{    flex-grow: inherit;} */
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #292929;
+    padding: 20px 15px;
+    transition: 400ms ease;
+    transition-property: color;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-item .f {
+    font-size: 20px;
+}
+
+
+/* Home section---------------> */
+
+.blink {
+    text-transform: uppercase;
+    font-weight: 700;
+    animation: blink 12s linear infinite;
 }
 
 .blink_me {
@@ -37,7 +64,7 @@ p {
     text-transform: uppercase;
     font-weight: 700;
     color: #FFC107;
-    animation: blink 6s linear infinite;
+    animation: blink 12s linear infinite;
 }
 
 @keyframes blink {
@@ -51,7 +78,6 @@ p {
     80%,
     90.1%,
     92% {
-        color: #FFC107;
         opacity: 1;
 
     }
@@ -79,9 +105,6 @@ p {
     font-weight: 300;
     font-family: 'Lato', sans-serif;
 
-
-    /* opacity: 0.427995; */
-
 }
 
 .site-box h2 {
@@ -89,7 +112,6 @@ p {
     font-size: 30px;
     color: #ffffff;
     font-weight: 600;
-
 }
 
 .form-container h3 {
@@ -103,10 +125,16 @@ p {
 }
 
 .style {
-
+    clear: unset;
+    background: unset;
+    border-radius: 5px;
     background: rgb(255 255 255);
     padding: 29px;
     border: 5px solid white;
+}
+
+.form-container {
+    border-radius: 5px solid white !important;
 }
 
 .background-image {
@@ -132,7 +160,7 @@ p {
 }
 
 #liststyle li {
-    display: block;
+    display: flex;
     list-style: none;
     font-size: 20px;
     text-align: left;
@@ -149,14 +177,24 @@ p {
 }
 
 .hbutton {
-
+    width: 100%;
     text-align: center;
     color: white;
     background-color: #801617;
     text-decoration: none;
-    padding: 10px;
-    font-size: 16px;
+    padding: 17px 0;
+    font-size: 14px;
+    border-radius: 30px;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+    border: 2px solid #801617;
+
+
 }
+
 
 
 /* //About us section css */
@@ -164,14 +202,20 @@ p {
 .site-about .left-colom img {
     border-radius: 50%;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
-.background-imageabout {
-    background-image: url(../images/about-statue.png);
-    background-repeat: no-repeat;
+.site-about {
+    margin: 0;
+    display: block;
+    clear: both;
+    width: 100%;
+    background: #efefed  url(../images/about-statue.png) no-repeat left 50px top 60px !important;
     background-size: cover;
     height: 100%;
+    width: 100%;
+    
 }
 
 .site-grey-section {
@@ -182,6 +226,18 @@ p {
     display: block;
     /* text-align: center; */
     background: #efefed;
+}
+
+.site-grey-section h1 {
+    color: #292929 !important;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .site-grey-section h2 {
@@ -325,10 +381,39 @@ p {
 }
 
 .marginsedc {
+    display: inline-block;
     font-size: 23px;
     color: #cc0909 !important;
     font-weight: 600;
-    margin: 10px 0px;
+    margin: 10px 0px !important;
+    text-decoration: none;
+}
+
+.theme-btn {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 14px 35px 14px 35px;
+    position: relative;
+    overflow: hidden;
+    transition: 400ms ease;
+    transition-property: color, background;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    border-radius: 0;
+    background: #801617;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0px;
+    border-radius: 30px;
+}
+
+.theme-btn:hover{
+    background: #292929;
 }
 
 

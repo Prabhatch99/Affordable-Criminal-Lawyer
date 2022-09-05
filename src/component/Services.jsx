@@ -33,8 +33,8 @@ function Services() {
                                                 <li>Careless Driving</li>
                                                 <li>Speeding Tickets</li>
                                             </ul>
-                                            <a href="tel:(800) 808-8119" className="marginsedc btn"> <i className="fa fa-phone"></i> (800) 808-8119</a>
-                                            <Link to="/contactus" className=" btn hbutton mb-4">Request Free Legal Advice 24/7 </Link>
+                                            <a href="tel:(800) 808-8119" className="marginsedc"> <i className="fa fa-phone"></i> (800) 808-8119</a>
+                                            <Link to="/contactus" className=" btn theme-btn mb-4">Request Free Legal Advice 24/7 </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -49,8 +49,8 @@ function Services() {
                                                 <li>Importing</li>
                                                 <li>Conspiracy</li>
                                             </ul>
-                                            <a href="tel:(800) 808-8119" className="marginsedc btn"> <i className="fa fa-phone"></i> (800) 808-8119</a>
-                                            <Link to="/contactus" className=" btn hbutton mb-4">Request Free Legal Advice 24/7 </Link>
+                                            <a href="tel:(800) 808-8119" className="marginsedc"> <i className="fa fa-phone"></i> (800) 808-8119</a>
+                                            <Link to="/contactus" className=" btn theme-btn mb-4">Request Free Legal Advice 24/7 </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -65,8 +65,8 @@ function Services() {
                                                 <li>Assault-Bodily Harm</li>
                                                 <li>Assault with a Weapon</li>
                                             </ul>
-                                            <a href="tel:(800) 808-8119" className="marginsedc btn"> <i className="fa fa-phone"></i> (800) 808-8119</a>
-                                            <Link to="/contactus" className=" btn hbutton mb-4">Request Free Legal Advice 24/7 </Link>
+                                            <a href="tel:(800) 808-8119" className="marginsedc"> <i className="fa fa-phone"></i> (800) 808-8119</a>
+                                            <Link to="/contactus" className=" btn theme-btn mb-4">Request Free Legal Advice 24/7 </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -81,8 +81,8 @@ function Services() {
                                                 <li>Manslaughter</li>
                                                 <br></br>
                                             </ul>
-                                            <a href="tel:(800) 808-8119" className="marginsedc btn"> <i className="fa fa-phone"></i> (800) 808-8119</a>
-                                            <Link to="/contactus" className=" btn hbutton mb-4">Request Free Legal Advice 24/7 </Link>
+                                            <a href="tel:(800) 808-8119" className="marginsedc"> <i className="fa fa-phone"></i> (800) 808-8119</a>
+                                            <Link to="/contactus" className=" btn theme-btn mb-4">Request Free Legal Advice 24/7 </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -97,8 +97,8 @@ function Services() {
                                                 <li>Impersonation</li>
                                                 <li>Cheque Fraud</li>
                                             </ul>
-                                            <a href="tel:(800) 808-8119" className="marginsedc btn"> <i className="fa fa-phone"></i> (800) 808-8119</a>
-                                            <Link to="/contactus" className=" btn hbutton mb-4">Request Free Legal Advice 24/7 </Link>
+                                            <a href="tel:(800) 808-8119" className="marginsedc"> <i className="fa fa-phone"></i> (800) 808-8119</a>
+                                            <Link to="/contactus" className=" btn theme-btn mb-4">Request Free Legal Advice 24/7 </Link>
                                         </div>
                                     </div>
                                 </div>

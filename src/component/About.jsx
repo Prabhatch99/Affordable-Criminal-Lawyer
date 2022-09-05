@@ -8,10 +8,10 @@ function About() {
             <div class="site-about site-grey-section">
                 <div class="container-fluid">
                     <div class="row">
-
                         {/* <!-- Left colom --> */}
                         <div class=" col-md-5 col-12">
                             <div class="right-colom background-imageabout">
+                                <h1>About Us</h1>
                                 <h2>We will fight for you</h2>
                                 <h3>Criminal Defence Lawyers</h3>
                                 <p>We provide clients with dedicated support over the duration of their case. Whether there is a need to resolve or litigate your matter, our focus is on ensuring that your expecations are met.</p>
