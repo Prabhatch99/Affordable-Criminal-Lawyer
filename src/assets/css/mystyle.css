@@ -528,6 +528,10 @@ p {
     /* line-height: 33px; */
 }
 
+.cta a{
+    text-decoration: none;
+}
+
 
 /* contact us section ------> */
 
@@ -877,4 +881,9 @@ a.theme-btn {
     font-size: 30px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
+}
+
+.call-info ul li a{
+    text-decoration: none;
+    /* color: #801617 !important; */
 }

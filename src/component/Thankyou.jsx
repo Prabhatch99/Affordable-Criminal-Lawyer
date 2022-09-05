@@ -11,14 +11,14 @@ function Thankyou() {
                             <div className="site-box customclsa">
                             <i className="fa-5x fa-solid fa-circle-check" id="checkmark"></i>
                                 <h1>Thank You</h1>
-                                <p>Thank you for contacting us. One of our representatives will be in contact with you  shortly regarding <br /> your inquiry. If you ever have any questions that require immediate assistance, please call us at</p>
+                                <p style={{color:"white"}}>Thank you for contacting us. One of our representatives will be in contact with you  shortly regarding <br /> your inquiry. If you ever have any questions that require immediate assistance, please call us at</p>
                                 <div className="call-info">
                                     <ul>
                                         <li><a href="tel:(800) 808-8119" style={{color:"#ffffff"}}>  <i className="fa fa-phone"></i> (800) 808-8119</a> </li>
                                         <li><a href="mailto:contact@levienlaw.com" style={{color:"#ffffff"}}>  <i className="fa fa-envelope"></i>  contact@levienlaw.com</a> </li>
                                     </ul>
                                 </div>
-                                <div className="btn">
+                                <div>
                                     <Link className="theme-btn" to="/"> Back To Home</Link>
                                 </div>
                             </div>
